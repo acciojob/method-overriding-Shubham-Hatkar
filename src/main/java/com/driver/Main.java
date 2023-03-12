@@ -3,14 +3,14 @@ package com.driver;
 
 public class Main
 {
-    class A
+    static class A
     {
         String meth()
         {
             return "Invoking method from class A";
         }
     }
-    class B extends A
+    static class B extends A
     {
         String meth()
         {
